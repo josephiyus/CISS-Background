@@ -1,0 +1,35 @@
+D:\Programming\DP Background\DP Background\bin\Debug\CISS_Background.exe
+D:\Programming\DP Background\DP Background\bin\Debug\CISS_Background.pdb
+D:\Programming\DP Background\DP Background\bin\Debug\Mono.Security.dll
+D:\Programming\DP Background\DP Background\bin\Debug\MySql.Data.dll
+D:\Programming\DP Background\DP Background\bin\Debug\MySql.Data.Entity.dll
+D:\Programming\DP Background\DP Background\bin\Debug\Npgsql.dll
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.APIConfigForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.IOConfigForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.SecurosDbForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.SocketConfigForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.MainDashboard.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS.Properties.Resources.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS Background.csproj.GenerateResource.Cache
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.exe
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.pdb
+D:\Programming\DP Background\DP Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.CissDatabaseForm.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.exe
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.pdb
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS Background.csprojResolveAssemblyReference.cache
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.APIConfigForm.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.CissDatabaseForm.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.IOConfigForm.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.SecurosDbForm.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.id.co.cdp.view.SocketConfigForm.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS_Background.MainDashboard.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS.Properties.Resources.resources
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS Background.csproj.GenerateResource.Cache
+D:\Programming\CISS Background\CISS Background\bin\Debug\CISS_Background.exe
+D:\Programming\CISS Background\CISS Background\bin\Debug\CISS_Background.pdb
+D:\Programming\CISS Background\CISS Background\bin\Debug\Mono.Security.dll
+D:\Programming\CISS Background\CISS Background\bin\Debug\MySql.Data.dll
+D:\Programming\CISS Background\CISS Background\bin\Debug\MySql.Data.Entity.dll
+D:\Programming\CISS Background\CISS Background\bin\Debug\Npgsql.dll
+D:\Programming\CISS Background\CISS Background\bin\Debug\Newtonsoft.Json.dll
+D:\Programming\CISS Background\CISS Background\obj\x86\Debug\CISS.id.co.cdp.view.EkioskApiConfigForm.resources

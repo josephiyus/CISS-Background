@@ -1,0 +1,5 @@
+data_source=185.201.8.184
+port=3306
+schema=cdp
+username=cdp_user
+password=UnaisMultiverseDb1!

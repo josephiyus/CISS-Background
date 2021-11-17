@@ -1,0 +1,6 @@
+gate1=http://10.0.3.101:4001/Ekiosk/PrintJobSlip
+gate2=http://10.0.3.102:4001/Ekiosk/PrintJobSlip
+gate3=http://10.0.3.103:4001/Ekiosk/PrintJobSlip
+gate4=http://10.0.3.104:4001/Ekiosk/PrintJobSlip
+gate5In=http://10.0.3.105:4001/Ekiosk/PrintJobSlip
+gate5Out=http://10.0.3.106:4001/Ekiosk/PrintJobSlip

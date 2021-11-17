@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4DC33AD3-5254-4518-ADC2-6A87ECCC3619}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CISS</RootNamespace>
+    <AssemblyName>CISS_Background</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8-truck-48.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Security">
+      <HintPath>..\lib\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.1.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.1.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\lib\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Npgsql">
+      <HintPath>..\lib\Npgsql.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="id\co\cdp\bo\impl\EventProcessorBo.cs" />
+    <Compile Include="id\co\cdp\bo\impl\EventProcessorBoDummy.cs" />
+    <Compile Include="id\co\cdp\common\persistence\abstracts\PostgreSqlCommon.cs" />
+    <Compile Include="id\co\cdp\constant\ThreadLocker.cs" />
+    <Compile Include="id\co\cdp\dao\impl\RecognitionInfoDao.cs" />
+    <Compile Include="id\co\cdp\dao\IRecognitionInfoDao.cs" />
+    <Compile Include="id\co\cdp\engine\impl\TransactionQueue.cs" />
+    <Compile Include="id\co\cdp\engine\impl\QueueManager.cs" />
+    <Compile Include="id\co\cdp\engine\impl\Transaction.cs" />
+    <Compile Include="id\co\cdp\bo\IEventProcessor.cs" />
+    <Compile Include="id\co\cdp\engine\ITransactionQueue.cs" />
+    <Compile Include="id\co\cdp\engine\IQueueManager.cs" />
+    <Compile Include="id\co\cdp\engine\ILinkage.cs" />
+    <Compile Include="id\co\cdp\common\attribute\FieldAttribute.cs" />
+    <Compile Include="id\co\cdp\common\attribute\TableAttribute.cs" />
+    <Compile Include="id\co\cdp\common\persistence\abstracts\MySqlCommon.cs" />
+    <Compile Include="id\co\cdp\common\persistence\ICommonDatabase.cs" />
+    <Compile Include="id\co\cdp\constant\AppConstant.cs" />
+    <Compile Include="id\co\cdp\dao\IDefaultDao.cs" />
+    <Compile Include="id\co\cdp\dao\impl\DefaultDao.cs" />
+    <Compile Include="id\co\cdp\exception\CISSDbFailedConnectionException.cs" />
+    <Compile Include="id\co\cdp\exception\FailedWriteViewException.cs" />
+    <Compile Include="id\co\cdp\exception\SecurosDbFailedConnectionException.cs" />
+    <Compile Include="id\co\cdp\model\based\CissBase.cs" />
+    <Compile Include="id\co\cdp\model\based\SecurosBase.cs" />
+    <Compile Include="id\co\cdp\model\TLogVo.cs" />
+    <Compile Include="id\co\cdp\util\AttributesUtil.cs" />
+    <Compile Include="id\co\cdp\util\AppUtil.cs" />
+    <Compile Include="id\co\cdp\util\ConfigurationUtil.cs" />
+    <Compile Include="id\co\cdp\util\DateTimeUtil.cs" />
+    <Compile Include="id\co\cdp\util\DbUtil.cs" />
+    <Compile Include="id\co\cdp\util\DummyUtil.cs" />
+    <Compile Include="id\co\cdp\util\FileUtil.cs" />
+    <Compile Include="id\co\cdp\util\ImageUtil.cs" />
+    <Compile Include="id\co\cdp\util\JsonUtil.cs" />
+    <Compile Include="id\co\cdp\util\LabelViewUtil.cs" />
+    <Compile Include="id\co\cdp\util\QueryUtil.cs" />
+    <Compile Include="id\co\cdp\util\SocketUtil.cs" />
+    <Compile Include="id\co\cdp\util\StringUtil.cs" />
+    <Compile Include="id\co\cdp\util\TableViewUtil.cs" />
+    <Compile Include="id\co\cdp\util\TextViewUtil.cs" />
+    <Compile Include="id\co\cdp\util\TransactionUtil.cs" />
+    <Compile Include="id\co\cdp\util\XMLUtil.cs" />
+    <Compile Include="id\co\cdp\view\APIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\APIForm.Designer.cs">
+      <DependentUpon>APIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\view\CissDatabaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\CissDatabaseForm.Designer.cs">
+      <DependentUpon>CissDatabaseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\view\EkioskApiConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\EkioskApiConfigForm.Designer.cs">
+      <DependentUpon>EkioskApiConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\view\IOForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\IOForm.Designer.cs">
+      <DependentUpon>IOForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\view\SecurosDbForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\SecurosDbForm.Designer.cs">
+      <DependentUpon>SecurosDbForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\view\SocketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\SocketForm.Designer.cs">
+      <DependentUpon>SocketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\vo\APIConfigVo.cs" />
+    <Compile Include="id\co\cdp\vo\ContainerInfoVo.cs" />
+    <Compile Include="id\co\cdp\vo\DossInfoVo.cs" />
+    <Compile Include="id\co\cdp\vo\DossParamVo.cs" />
+    <Compile Include="id\co\cdp\vo\DossResponseVo.cs" />
+    <Compile Include="id\co\cdp\vo\DummyDecisionConfigVo.cs" />
+    <Compile Include="id\co\cdp\vo\EkioskJobPrintVo.cs" />
+    <Compile Include="id\co\cdp\vo\EkioskParamVo.cs" />
+    <Compile Include="id\co\cdp\vo\Event.cs" />
+    <Compile Include="id\co\cdp\util\RestApiUtil.cs" />
+    <Compile Include="id\co\cdp\vo\IOConfigVo.cs" />
+    <Compile Include="id\co\cdp\model\LogDetailsVo.cs" />
+    <Compile Include="id\co\cdp\model\LogHeadersVo.cs" />
+    <Compile Include="id\co\cdp\vo\MonitoringFieldVo.cs" />
+    <Compile Include="id\co\cdp\vo\P1MonitoringDbVo.cs" />
+    <Compile Include="id\co\cdp\model\RecognitionInfoVo.cs" />
+    <Compile Include="id\co\cdp\vo\RegisteredTransaction.cs" />
+    <Compile Include="id\co\cdp\vo\RestApiResult.cs" />
+    <Compile Include="id\co\cdp\vo\ResultVo.cs" />
+    <Compile Include="id\co\cdp\vo\SecurosDbConfigVo.cs" />
+    <Compile Include="id\co\cdp\vo\SecurosDummyVo.cs" />
+    <Compile Include="id\co\cdp\vo\SocketConfigVo.cs" />
+    <Compile Include="id\co\cdp\vo\TransactionClassification.cs" />
+    <Compile Include="id\co\cdp\model\TransactionDetails.cs" />
+    <Compile Include="id\co\cdp\model\TransactionHeaders.cs" />
+    <Compile Include="id\co\cdp\view\MainDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="id\co\cdp\view\MainDashboard.Designer.cs">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="id\co\cdp\model\TruckScheduleVo.cs" />
+    <Compile Include="id\co\cdp\vo\WeightDummyVo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="id\co\cdp\view\APIForm.resx">
+      <DependentUpon>APIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="id\co\cdp\view\CissDatabaseForm.resx">
+      <DependentUpon>CissDatabaseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="id\co\cdp\view\EkioskApiConfigForm.resx">
+      <DependentUpon>EkioskApiConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="id\co\cdp\view\IOForm.resx">
+      <DependentUpon>IOForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="id\co\cdp\view\SecurosDbForm.resx">
+      <DependentUpon>SecurosDbForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="id\co\cdp\view\SocketForm.resx">
+      <DependentUpon>SocketForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="id\co\cdp\view\MainDashboard.resx">
+      <DependentUpon>MainDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8-truck-48.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,17 @@
+D:\Programming\DP Background\DP Background\bin\Debug\DP Background.exe
+D:\Programming\DP Background\DP Background\bin\Debug\DP Background.pdb
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.MainDashboard.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.Properties.Resources.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP Background.csproj.GenerateResource.Cache
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP Background.exe
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP Background.pdb
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP Background.csprojResolveAssemblyReference.cache
+D:\Programming\DP Background\DP Background\bin\Debug\MySql.Data.dll
+D:\Programming\DP Background\DP Background\bin\Debug\MySql.Data.Entity.dll
+D:\Programming\DP Background\DP Background\bin\Debug\Npgsql.dll
+D:\Programming\DP Background\DP Background\bin\Debug\Mono.Security.dll
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.id.co.cdp.view.SecurosDbForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.id.co.cdp.view.APIConfigForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.id.co.cdp.view.P1MonitoringDatabaseForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.id.co.cdp.view.IOConfigForm.resources
+D:\Programming\DP Background\DP Background\obj\x86\Debug\DP_Background.id.co.cdp.view.SocketConfigForm.resources

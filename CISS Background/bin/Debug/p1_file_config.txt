@@ -1,0 +1,2 @@
+txtPath=D:\doss\LOG\
+csvPath=D:\doss\LOG\

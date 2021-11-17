@@ -1,0 +1,6 @@
+server_name=127.0.0.1
+database_name=postgres
+port=5432
+schema=tobackup
+username=postgres
+password=postgres

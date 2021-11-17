@@ -1,0 +1,5 @@
+doss_api_basic=http://203.142.71.197:8012/cdpservicedev/index.php?/apiservicenewgate/GET_DATA_JOB
+frontend_api_basic=http://185.201.8.184/api/gates?
+ekiosk_in=http://203.142.71.197:8012/cdpservicedev/index.php?/apiservicenewgate/GET_DATA_SLIP_IN
+ekiosk_out=http://203.142.71.197:8012/cdpservicedev/index.php?/apiservicenewgate/GET_DATA_SLIP_OUT
+put_response=http://203.142.71.197:8012/cdpservicedev/index.php?/apiservicenewgate/API_PUT_RESPONSE
